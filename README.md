@@ -202,6 +202,12 @@ npm run lint
 
 ---
 
+## 🌐 Deploying to Vercel
+
+This repository includes a [`vercel.json`](file:///d:/PF/vercel.json) rewrite configuration to ensure client-side routes (like `/admin`, `/cms`, and `/work/:slug`) function seamlessly without returning 404 errors on direct page refreshes.
+
+---
+
 ## 📄 License
 
 This project is open-source under the MIT License.
